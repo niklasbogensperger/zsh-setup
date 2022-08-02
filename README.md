@@ -1,4 +1,4 @@
-# zsh-setup[^a]
+# zsh-setup[^1]
 
 
 ## Preliminary steps
@@ -78,5 +78,5 @@ unset funct
 | `05_cleanzip.zsh`        | ⬆︎                                                            | creates a clean zip archive                                  |
 
 
-[^a]: my system is macOS, YMMV on other platforms
+[^1]: my system is macOS, YMMV on other platforms
 
