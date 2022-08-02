@@ -1,4 +1,4 @@
-# zsh-setup
+# zsh-setup[^‡]
 
 
 ## Preliminary steps
@@ -49,3 +49,33 @@ unset funct
 - set command execution time threshold to `0`
 - set command execution time precision to `2`
 - set vcs branch icon to `'\uF126 '`
+
+
+## Files
+
+### `configs` folder
+
+| file              | content                                                    |
+| ----------------- | ---------------------------------------------------------- |
+| `aliases.zsh`     | command aliases for default flags, shortcuts, replacements |
+| `environment.zsh` | environment variables                                      |
+| `options.zsh`     | zsh options and settings                                   |
+| `path.zsh`        | additions to `$PATH` and similar variables                 |
+
+
+### `functions` folder
+
+| file                     | group                                                        | action                                                       |
+| ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `01_decryptfile.zsh`     | 01 - encrypting and decrypting files with `gpg`/`gnupg`      | decrypting a file                                            |
+| `01_encryptfile.zsh`     | ⬆︎                                                            | encrypting a file                                            |
+| `02_gitignore.zsh`       | 02 - creating comprehensive .gitignore files via a public [API](https://www.toptal.com/developers/gitignore) | returns output of API according to parameters (usually write to file) |
+| `03_externalmonitor.zsh` | 03 - opening and closing useful apps when using external monitors | opens relevant apps                                          |
+| `03_internalmonitor.zsh` | ⬆︎                                                            | closes relevant apps                                         |
+| `04_appidentifier.zsh`   | 04 - displaying the macOS bundle identifier of apps          | returns bundle identifier                                    |
+| `05_cleanhelpers.zsh`    | 05 - Creating clean zip & tar files (by excluding hidden files/directories and macOS-specific special files) | helper functions for `cleantar` & `cleanzip`                 |
+| `05_cleantar.zsh`        | ⬆︎                                                            | creates a clean tar archive                                  |
+| `05_cleanzip.zsh`        | ⬆︎                                                            | creates a clean zip archive                                  |
+
+
+[^‡]: my system is macOS, YMMV on other platforms
