@@ -69,6 +69,7 @@ unset funct
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `01_decryptfile.zsh`     | 01 - encrypting and decrypting files with `gpg`/`gnupg`      | decrypting a file                                            |
 | `01_encryptfile.zsh`     | ⬆︎                                                            | encrypting a file                                            |
+| `01_tmpdecryptfile.zsh`  | ⬆︎                                                            | non-persistently decrypting a file and only displaying its contents |
 | `02_gitignore.zsh`       | 02 - creating comprehensive .gitignore files via a public [API](https://www.toptal.com/developers/gitignore) | returns output of API according to parameters (usually write to file) |
 | `03_externalmonitor.zsh` | 03 - opening and closing useful apps when using external monitors | opens relevant apps                                          |
 | `03_internalmonitor.zsh` | ⬆︎                                                            | closes relevant apps                                         |
