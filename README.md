@@ -74,9 +74,10 @@ unset funct
 | `03_externalmonitor.zsh` | 03 - opening and closing useful apps when using external monitors | opens relevant apps                                          |
 | `03_internalmonitor.zsh` | ⬆︎                                                            | closes relevant apps                                         |
 | `04_appidentifier.zsh`   | 04 - displaying the macOS bundle identifier of apps          | returns bundle identifier                                    |
-| `05_cleanhelpers.zsh`    | 05 - Creating clean zip & tar files (by excluding hidden files/directories and macOS-specific special files) | helper functions for `cleantar` & `cleanzip`                 |
+| `05_cleanhelpers.zsh`    | 05 - creating clean zip & tar files (by excluding hidden files/directories and macOS-specific special files) | helper functions for `cleantar` & `cleanzip`                 |
 | `05_cleantar.zsh`        | ⬆︎                                                            | creates a clean tar archive                                  |
 | `05_cleanzip.zsh`        | ⬆︎                                                            | creates a clean zip archive                                  |
+| `06_checkhash.zsh`       | 06 - computing file hashes (and optionally checking it against a provided hash) | returns file hashes or comparison result                     |
 
 
 [^1]: my system is macOS, YMMV on other platforms
