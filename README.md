@@ -78,6 +78,7 @@ unset funct
 | `05_cleantar.zsh`        | ⬆︎                                                            | creates a clean tar archive                                  |
 | `05_cleanzip.zsh`        | ⬆︎                                                            | creates a clean zip archive                                  |
 | `06_checkhash.zsh`       | 06 - computing file hashes (and optionally checking it against a provided hash) | returns file hashes or comparison result                     |
+| `07_pwgen.zsh`           | 07 - generating random passwords of desired length in base64 encoding | returns randomly generated password                          |
 
 
 [^1]: my system is macOS, YMMV on other platforms
