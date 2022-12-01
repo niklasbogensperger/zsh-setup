@@ -13,6 +13,7 @@ alias raworphans='python3 /Users/niklasbogensperger/Documents/Projects/\[local\]
 # for quick access to frequent workflows
 alias dockspacer="defaults write com.apple.dock persistent-apps -array-add '{\"tile-type\"=\"small-spacer-tile\";}' && killall Dock"
 alias scrubexif='exiftool -all='
+alias scrubgps='exiftool -GPS\*='
 alias setdate='exiftool "-alldates<filename"'
 alias setname='exiftool -d "%Y-%m-%d %H.%M.%S.%%e" "-filename<CreateDate"'
 alias tarinfo='tar -tvf'
