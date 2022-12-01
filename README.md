@@ -79,6 +79,7 @@ unset funct
 | `05_cleanzip.zsh`        | ⬆︎                                                            | creates a clean zip archive                                  |
 | `06_checkhash.zsh`       | 06 - computing file hashes (and optionally checking it against a provided hash) | returns file hashes or comparison result                     |
 | `07_pwgen.zsh`           | 07 - generating random passwords of desired length in base64 encoding | returns randomly generated password                          |
+| `08_setname.zsh`         | 08 - setting the file name of photos/videos to one of the timestamps embedded in the metadata tags | updates image filename(s) according to user selection        |
 
 
 [^1]: my system is macOS, YMMV on other platforms
