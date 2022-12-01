@@ -15,7 +15,7 @@ alias dockspacer="defaults write com.apple.dock persistent-apps -array-add '{\"t
 alias scrubexif='exiftool -all='
 alias scrubgps='exiftool -GPS\*='
 alias setdate='exiftool "-alldates<filename"'
-alias setname='exiftool -d "%Y-%m-%d %H.%M.%S.%%e" "-filename<CreateDate"'
+alias setnameall='exiftool -d "%Y-%m-%d %H.%M.%S.%%e" "-filename<CreateDate"'
 alias tarinfo='tar -tvf'
 alias ytmusic='youtube-dl -f m4a'
 
