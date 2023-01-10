@@ -1,3 +1,12 @@
 # for python environment
-export PATH="$PATH:/Users/niklasbogensperger/Library/Python/3.10/bin"
-export PYTHONPATH="$PYTHONPATH:/Users/niklasbogensperger/Library/Python/3.10/bin"
+export PYTHONPATH="$PYTHONPATH:$HOME/Library/Python/3.10/bin"
+export PATH="$PATH:$HOME/Library/Python/3.10/bin"
+
+# for flutter environment
+export PATH="$PATH:$HOME/Library/flutter/bin"
+
+# for android environment
+export ANDROID_HOME="$HOME/Library/Android"
+export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
+export PATH="$PATH:$ANDROID_HOME/emulator"
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
