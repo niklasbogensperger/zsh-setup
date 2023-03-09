@@ -1,6 +1,6 @@
 # for python environment
-export PYTHONPATH="$PYTHONPATH:$HOME/Library/Python/3.10/bin"
-export PATH="$PATH:$HOME/Library/Python/3.10/bin"
+export PYTHONPATH="$PYTHONPATH:$HOME/Library/Python/3.11/bin"
+export PATH="$PATH:$HOME/Library/Python/3.11/bin"
 
 # for flutter environment
 export PATH="$PATH:$HOME/Library/flutter/bin"
