@@ -17,7 +17,8 @@ alias scrubgps='exiftool -GPS\*='
 alias setdate='exiftool "-alldates<filename"'
 alias setnameall='exiftool -d "%Y-%m-%d %H.%M.%S.%%e" "-filename<CreateDate"'
 alias tarinfo='tar -tvf'
-alias ytmusic='youtube-dl -f m4a'
+alias youtube-dl='yt-dlp'
+alias ytmusic='yt-dlp -f m4a'
 
 # for updates/upgrades/installs
 alias pipupdate='pip3 list --outdated'
