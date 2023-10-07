@@ -22,8 +22,8 @@ alias ytmusic='yt-dlp -f m4a'
 
 # for updates/upgrades/installs
 alias pipupdate='pip3 list --outdated'
-alias pipupgrade='pip3 install --upgrade --user'
-alias pipinstall='pip3 install --user'
+alias pipupgrade='pip3 install --upgrade'
+alias pipinstall='pip3 install'
 alias texupdate='tlmgr update --list'
 alias texupgrade='sudo tlmgr update --all'
 alias texinstall='sudo tlmgr install'
