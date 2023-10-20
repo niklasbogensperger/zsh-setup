@@ -15,4 +15,4 @@ export PATH="$PATH:$ANDROID_HOME/emulator"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
 # for rust (has its own logic for updating $PATH, so just run that)
-# source "$HOME/.cargo/env"
+source "$HOME/.cargo/env"
