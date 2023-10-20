@@ -4,7 +4,9 @@ alias nnn='nnn -d -H'
 
 # for replacing existing commands
 alias diff='colordiff -r'
-alias ls='exa --all --all --long --group-directories-first --classify --extended --header --time-style=long-iso'
+alias ls='eza --all --all --long --group-directories-first --classify --header --time-style=long-iso'
+# re-add '--extended' option once bug is fixed (see eza GitHub issue #425)
+# alias ls='eza --all --all --long --group-directories-first --classify --extended --header --time-style=long-iso'
 alias ping='prettyping'
 
 # for quick access to my own scripts
