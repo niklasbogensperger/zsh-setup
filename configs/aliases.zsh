@@ -9,7 +9,7 @@ alias lsex='eza --all --all --long --group-directories-first --classify --extend
 alias ping='prettyping'
 
 # for quick access to my own scripts
-alias raworphans='python3 /Users/niklasbogensperger/Projects/\[local\]\ \[python\]\ Raw\ Orphans/removeRawOrphans.py'
+alias raworphans='python3 $HOME/Projects/\[local\]\ \[python\]\ Raw\ Orphans/removeRawOrphans.py'
 
 # for quick access to frequent workflows
 alias dockspacer="defaults write com.apple.dock persistent-apps -array-add '{\"tile-type\"=\"small-spacer-tile\";}' && killall Dock"
