@@ -1,5 +1,5 @@
 # for default flags
-alias icdiff='icdiff -r'
+alias delta='delta --side-by-side --diff-so-fancy'
 alias nnn='nnn -d -H'
 
 # for replacing existing commands
@@ -18,13 +18,4 @@ alias scrubgps='exiftool -GPS\*='
 alias setdate='exiftool "-alldates<filename"'
 alias setnameall='exiftool -d "%Y-%m-%d %H.%M.%S.%%e" "-filename<CreateDate"'
 alias tarinfo='tar -tvf'
-alias youtube-dl='yt-dlp'
 alias ytmusic='yt-dlp -f m4a'
-
-# for updates/upgrades/installs
-alias pipupdate='pip3 list --outdated'
-alias pipupgrade='pip3 install --upgrade'
-alias pipinstall='pip3 install'
-alias texupdate='tlmgr update --list'
-alias texupgrade='sudo tlmgr update --all'
-alias texinstall='sudo tlmgr install'
