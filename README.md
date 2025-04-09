@@ -65,21 +65,24 @@ unset funct
 
 ### `functions` folder
 
-| file                     | group                                                        | action                                                       |
-| ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `01_decryptfile.zsh`     | 01 - encrypting and decrypting files with `gpg`/`gnupg`      | decrypting a file                                            |
-| `01_encryptfile.zsh`     | ⬆︎                                                            | encrypting a file                                            |
-| `01_tmpdecryptfile.zsh`  | ⬆︎                                                            | non-persistently decrypting a file and only displaying its contents |
-| `02_gitignore.zsh`       | 02 - creating comprehensive .gitignore files via a public [API](https://www.toptal.com/developers/gitignore) | returns output of API according to parameters (usually write to file) |
-| `03_externalmonitor.zsh` | 03 - opening and closing useful apps when using external monitors | opens relevant apps                                          |
-| `03_internalmonitor.zsh` | ⬆︎                                                            | closes relevant apps                                         |
-| `04_appidentifier.zsh`   | 04 - displaying the macOS bundle identifier of apps          | returns bundle identifier                                    |
-| `05_cleanhelpers.zsh`    | 05 - creating clean zip & tar files (by excluding hidden files/directories and macOS-specific special files) | helper functions for `cleantar` & `cleanzip`                 |
-| `05_cleantar.zsh`        | ⬆︎                                                            | creates a clean tar archive                                  |
-| `05_cleanzip.zsh`        | ⬆︎                                                            | creates a clean zip archive                                  |
-| `06_checkhash.zsh`       | 06 - computing file hashes (and optionally checking it against a provided hash) | returns file hashes or comparison result                     |
-| `07_pwgen.zsh`           | 07 - generating random passwords of desired length in base64 encoding | returns randomly generated password                          |
-| `08_setname.zsh`         | 08 - setting the file name of photos/videos to one of the timestamps embedded in the metadata tags | updates image filename(s) according to user selection        |
+| file                               | group                                                        | action                                                       |
+| ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `01_decryptfile.zsh`               | 01 - encrypting and decrypting files with `gpg`/`gnupg`      | decrypting a file                                            |
+| `01_encryptfile.zsh`               | ⬆︎                                                            | encrypting a file                                            |
+| `01_tmpdecryptfile.zsh`            | ⬆︎                                                            | non-persistently decrypting a file and only displaying its contents |
+| `02_gitignore.zsh`                 | 02 - creating comprehensive .gitignore files via a public [API](https://www.toptal.com/developers/gitignore) | returns output of API according to parameters (usually write to file) |
+| `03_externalmonitor.zsh`           | 03 - opening and closing useful apps when using external monitors | opens relevant apps                                          |
+| `03_internalmonitor.zsh`           | ⬆︎                                                            | closes relevant apps                                         |
+| `04_appidentifier.zsh`             | 04 - displaying the macOS bundle identifier of apps          | returns bundle identifier                                    |
+| `05_cleanhelpers.zsh`              | 05 - creating clean zip & tar files (by excluding hidden files/directories and macOS-specific special files) | helper functions for `cleantar` & `cleanzip`                 |
+| `05_cleantar.zsh`                  | ⬆︎                                                            | creates a clean tar archive                                  |
+| `05_cleanzip.zsh`                  | ⬆︎                                                            | creates a clean zip archive                                  |
+| `06_checkhash.zsh`                 | 06 - computing file hashes (and optionally checking it against a provided hash) | returns file hashes or comparison result                     |
+| `07_pwgen.zsh`                     | 07 - generating random passwords of desired length in base64 encoding | returns randomly generated password                          |
+| `08_setname.zsh`                   | 08 - setting the file name of photos/videos to one of the timestamps embedded in the metadata tags | updates image filename(s) according to user selection        |
+| `09_uv-default.zsh`                | 09 - managing a (default) python `venv` created by `uv`      | aliases the `uv` command to run in the default environment directory |
+| `09_uv-default-python-upgrade.zsh` | ⬆︎                                                            | upgrades the base python version used by the default environment |
+| `09_uv-upgrade.zsh`                | ⬆︎                                                            | upgrades the packages in any `uv` environment                |
 
 
 [^1]: my system is macOS, YMMV on other platforms
