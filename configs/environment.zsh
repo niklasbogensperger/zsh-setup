@@ -1,5 +1,9 @@
-export EDITOR=/usr/bin/nano
+export EDITOR=nano
 export HOMEBREW_NO_ANALYTICS=1
-export HOMEBREW_NO_INSTALL_FROM_API=1
+export HOMEBREW_NO_ENV_HINTS=1
+export LANG=en_US.UTF-8
+export LC_MONETARY=de_CH.UTF-8
+export LC_NUMERIC=de_CH.UTF-8
+export LC_TIME=de_CH.UTF-8
 export NNN_OPENER=launch
 export NNN_USE_EDITOR=1
