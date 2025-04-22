@@ -5,6 +5,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 source "$HOME/.cargo/env"
 
 # Python default virtual environment (via uv)
+# For initial setup: run `uv init --bare` in `$HOME/.local/uv-default/`
 export PATH="$HOME/.local/uv-default/.venv/bin:$PATH"
 
 # TeXLive manual local install (update each year)
